@@ -57,7 +57,9 @@ Each feature displayed in the _Showcase_ should be a learning tool, here a quick
 - Ragdoll
   - Simple implementation of a ragdoll system which changes to collider depending on state
 - Get up (Unfinished)
-  - Combines procedural with keyframe animations to create a standing up animations.
+  - Combines procedural with keyframe animations to create a standing up animations. Also shows the workflow that can be used to add Mixamo animations for existing  character
 - Cape (not yet started)
   - Example showing how cloth physics can be combined with Animation Rigging constraints.
+- Spell Casting
+  - Example showing the use of motion capture data turned keyframe animation in combination with animation layers
 

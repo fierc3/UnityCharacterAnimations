@@ -38,6 +38,7 @@ public class PoetAnimationController : MonoBehaviour
 
     private void ActivateSingleAnimation(string animParameter)
     {
+        // Activate only Parameter which name matches animParameter
         _animator.parameters.ToList().ForEach(param => { _animator.SetBool(param.name, param.name.Equals(animParameter)); });
     }
 
